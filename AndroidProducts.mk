@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_NX529J.mk
+    $(LOCAL_DIR)/omni_NX529J.mk

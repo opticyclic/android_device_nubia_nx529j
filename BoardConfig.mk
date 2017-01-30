@@ -3,8 +3,12 @@ USE_CAMERA_STUB := true
 # inherit from the proprietary version
 -include vendor/nubia/NX529J/BoardConfigVendor.mk
 
-TARGET_ARCH := arm
+# Bootloader
 TARGET_NO_BOOTLOADER := true
+TARGET_BOOTLOADER_BOARD_NAME := NX529J
+
+# Architecture
+TARGET_ARCH := arm
 TARGET_BOARD_PLATFORM := msm8952
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
@@ -12,8 +16,6 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := cortex-a7
 TARGET_CPU_SMP := true
 ARCH_ARM_HAVE_TLS_REGISTER := true
-
-TARGET_BOOTLOADER_BOARD_NAME := NX529J
 
 # Kernel
 BOARD_KERNEL_BASE := 0x80000000

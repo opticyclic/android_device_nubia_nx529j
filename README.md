@@ -36,7 +36,7 @@ To get this device we add a local manifest called `.repo/local_manifests/nx529j.
 
     <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
-        <project path="device/nubia/NX529J" name="android_device_nubia_nx529j" remote="github" revision="master" />
+        <project path="device/nubia/NX529J" name="opticyclic/android_device_nubia_nx529j" remote="github" revision="master" />
     </manifest>
 
 Then run `repo --time sync -j8` to check it out.

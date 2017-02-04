@@ -9,7 +9,7 @@ It is currently using a prebuilt kernel and device tree blob (dt.img) extracted 
     Kernel version  - 3.10.73-perf-g7a5d521-00492-g32de588 nubia@swlab-1t188 #1
     Android version 5.1.1
 
-The kernel source _might_ be https://github.com/ztemt/NX529J_L_kernel but it doesn't compile with this config yet.
+The official kernel source is https://github.com/ztemt/NX529J_L_kernel but it doesn't compile with this config yet.
 
 ## Get The Code
 
